@@ -2,22 +2,7 @@
   "groups": [
     {"id":"admin","name":"Administración","range":[1,5]},
     {"id":"mision","name":"Apostolado / Misiones","range":[6,11]},
-    {"id":"discern","name":"Discernimiento Espiritual","range":[12,16]},
-    {"id":"animo","name":"Ánimo / Consejería","range":[17,23]},
-    {"id":"evangel","name":"Evangelización","range":[24,29]},
-    {"id":"fe","name":"Fe","range":[30,35]},
-    {"id":"dar","name":"Dar","range":[36,41]},
-    {"id":"sanidad","name":"Sanidad","range":[42,46]},
-    {"id":"ayudas","name":"Ayudas","range":[47,52]},
-    {"id":"hospitalidad","name":"Hospitalidad","range":[53,59]},
-    {"id":"conocimiento","name":"Conocimiento","range":[60,64]},
-    {"id":"liderazgo","name":"Liderazgo","range":[65,70]},
-    {"id":"misericordia","name":"Misericordia","range":[71,77]},
-    {"id":"milagros","name":"Milagros","range":[78,82]},
-    {"id":"pastoreo","name":"Pastoreo","range":[83,88]},
-    {"id":"profecia","name":"Profecía","range":[89,95]},
-    {"id":"ensenanza","name":"Enseñanza","range":[96,101]},
-    {"id":"sabiduria","name":"Sabiduría e Intercesión","range":[102,112]}
+    {"id":"discern","name":"Discernimiento Espiritual","range":[12,16]}
   ],
   "questions": [
     {"id":1,"text":"Me gusta organizar hechos, grupos o eventos.","group":"admin"},
@@ -31,6 +16,10 @@
     {"id":9,"text":"Creo que evangelizar en otra cultura sería agradable.","group":"mision"},
     {"id":10,"text":"La idea de vivir en lugares nuevos me emociona.","group":"mision"},
     {"id":11,"text":"Me visualizo como misionero.","group":"mision"},
-    ... (continúan hasta el 112 con las frases del documento)
+    {"id":12,"text":"Generalmente confío en mis primeras impresiones de la gente.","group":"discern"},
+    {"id":13,"text":"A veces puedo sentir cuando un libro o una charla acercará o alejará a las personas de Dios.","group":"discern"},
+    {"id":14,"text":"Descubro que reacciono instintivamente a la atmósfera espiritual de una situación.","group":"discern"},
+    {"id":15,"text":"Puedo ver si un libro o predicador está en línea con la verdad de la Biblia.","group":"discern"},
+    {"id":16,"text":"Puedo discernir distintas fuentes de energía espiritual.","group":"discern"}
   ]
 }
