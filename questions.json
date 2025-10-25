@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {"id":"admin","name":"Administración","range":[1,5]},
+    {"id":"mision","name":"Apostolado / Misiones","range":[6,11]},
+    {"id":"discern","name":"Discernimiento Espiritual","range":[12,16]},
+    {"id":"animo","name":"Ánimo / Consejería","range":[17,23]},
+    {"id":"evangel","name":"Evangelización","range":[24,29]},
+    {"id":"fe","name":"Fe","range":[30,35]},
+    {"id":"dar","name":"Dar","range":[36,41]},
+    {"id":"sanidad","name":"Sanidad","range":[42,46]},
+    {"id":"ayudas","name":"Ayudas","range":[47,52]},
+    {"id":"hospitalidad","name":"Hospitalidad","range":[53,59]},
+    {"id":"conocimiento","name":"Conocimiento","range":[60,64]},
+    {"id":"liderazgo","name":"Liderazgo","range":[65,70]},
+    {"id":"misericordia","name":"Misericordia","range":[71,77]},
+    {"id":"milagros","name":"Milagros","range":[78,82]},
+    {"id":"pastoreo","name":"Pastoreo","range":[83,88]},
+    {"id":"profecia","name":"Profecía","range":[89,95]},
+    {"id":"ensenanza","name":"Enseñanza","range":[96,101]},
+    {"id":"sabiduria","name":"Sabiduría e Intercesión","range":[102,112]}
+  ],
+  "questions": [
+    {"id":1,"text":"Me gusta organizar hechos, grupos o eventos.","group":"admin"},
+    {"id":2,"text":"Cuando trabajo en un proyecto o evento me es fácil ver los pasos necesarios para resolver problemas.","group":"admin"},
+    {"id":3,"text":"Me encanta aprender temas administrativos y cómo funcionan las organizaciones.","group":"admin"},
+    {"id":4,"text":"Tengo habilidad natural para administrar tiempo, prioridades o finanzas.","group":"admin"},
+    {"id":5,"text":"Soy cuidadoso y meticuloso en los detalles.","group":"admin"},
+    {"id":6,"text":"Me emociona trabajar en contextos eclesiales diversos.","group":"mision"},
+    {"id":7,"text":"Me interesa llevar el evangelio a quienes nunca lo han escuchado.","group":"mision"},
+    {"id":8,"text":"Me atraen nuevos ministerios o iglesias en lugares difíciles.","group":"mision"},
+    {"id":9,"text":"Creo que evangelizar en otra cultura sería agradable.","group":"mision"},
+    {"id":10,"text":"La idea de vivir en lugares nuevos me emociona.","group":"mision"},
+    {"id":11,"text":"Me visualizo como misionero.","group":"mision"},
+    ... (continúan hasta el 112 con las frases del documento)
+  ]
+}
