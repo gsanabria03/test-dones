@@ -65,7 +65,7 @@ label {
   display: inline-block;
   background: #3399ff;
   color: white;
-  width: 50%;
+  width: 100%;
   padding: 8px 15px;
   border-radius: 20px;
   cursor: pointer;
@@ -131,6 +131,7 @@ button:hover {
   font-weight: bold;
   color: #cce0ff;
   margin-bottom: 4px; /* 🔹 Espacio entre etiqueta e input */
+  width: 53%;
 }
 
 #info-form input {
@@ -164,6 +165,7 @@ button:hover {
   display:block;
   width:100%;
 }
+
 
 
 
