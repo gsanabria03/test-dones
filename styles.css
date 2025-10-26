@@ -131,7 +131,7 @@ button:hover {
   font-weight: bold;
   color: #cce0ff;
   margin-bottom: 4px; /* 🔹 Espacio entre etiqueta e input */
-  width: 53%;
+  width: 50%;
 }
 
 #info-form input {
@@ -165,6 +165,7 @@ button:hover {
   display:block;
   width:100%;
 }
+
 
 
 
