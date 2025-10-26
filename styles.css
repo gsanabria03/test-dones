@@ -137,7 +137,7 @@ button:hover {
   display: block; /* 🔹 cada elemento ocupa toda la línea */
   width: 300px;    /* 🔹 el input se ajusta al ancho del contenedor */
   padding: 12px 15px;
-  height: 20px;
+  height: 15px;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.6);
   background-color: rgba(255, 255, 255, 0.9);
@@ -159,6 +159,7 @@ button:hover {
   border-color: #66b2ff;
   box-shadow: 0 0 5px rgba(102, 178, 255, 0.8);
 }
+
 
 
 
