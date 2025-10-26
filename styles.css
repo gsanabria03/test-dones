@@ -143,6 +143,25 @@ button:hover {
   font-size: 16px;
 }
 
+#info-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 2; /* garantiza que quede encima del fondo */
+}
+
+#info-form input::placeholder {
+  color: #cce0ff;
+}
+
+#info-form input:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: #66b2ff;
+}
+
+
 
 
 
