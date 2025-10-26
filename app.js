@@ -41,6 +41,32 @@ function mostrarResultados(resultados) {
   });
 }
 
+function enviarResultados(nombre, correo, telefono, resultados) {
+  const cuerpo = resultados.map(r => `${r.nombre}: ${r.total}`).join("\n");
+  const mensaje = `
+    Nombre: ${nombre}
+    Correo: ${correo}
+    Teléfono: ${telefono}
+
+    Resultados del test:
+    ${cuerpo}
+  `;
+
+  fetch("https://formsubmit.co/ajax/gsanabria0803@gmail.com", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      name: nombre,
+      email: correo,
+      message: mensaje 
+    })
+  })
+  .then(response => response.ok ? alert("✅ Resultado enviado con éxito!") : alert("❌ Error al enviar el correo"))
+  .catch(err => alert("❌ Error: " + err));
+}
+
+
+
 async function iniciar() {
   const data = await loadPreguntas();
   const form = document.getElementById("test-form");
@@ -51,7 +77,15 @@ async function iniciar() {
     const formData = new FormData(form);
     const resultados = calcularResultados(data, formData);
     mostrarResultados(resultados);
+    
+const nombre = document.getElementById("nombre").value;
+const correo = document.getElementById("correo").value;
+const telefono = document.getElementById("telefono").value;
+
+enviarResultados(nombre, correo, telefono, resultados);
+
   });
 }
 
 iniciar();
+
