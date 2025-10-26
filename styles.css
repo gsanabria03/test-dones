@@ -117,33 +117,47 @@ button:hover {
   border-bottom: 1px solid rgba(255,255,255,0.15);
 }
 
+#info-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* 🔹 Espaciado entre cada campo */
+  margin-bottom: 35px; /* 🔹 Espacio inferior antes del test */
+  position: relative;
+  z-index: 2;
+  padding: 10px 0; /* 🔹 Espacio vertical interno */
+}
+
+#info-form label {
+  font-weight: bold;
+  color: #cce0ff;
+  margin-bottom: 4px; /* 🔹 Espacio entre etiqueta e input */
+}
+
 #info-form input {
   padding: 12px 15px;
   height: 45px;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.6);
-  background-color: rgba(255, 255, 255, 0.9); /* más opaco para que se vea */
-  color: #003366; /* texto azul oscuro para contraste */
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #003366;
   font-size: 16px;
   outline: none;
-  position: relative;
-  z-index: 2;
   box-sizing: border-box;
   line-height: normal;
-  vertical-align: middle;
   transition: all 0.3s ease;
 }
 
 #info-form input::placeholder {
-  color: #6b8fbf; /* celeste grisáceo visible */
+  color: #6b8fbf;
   opacity: 1;
 }
 
 #info-form input:focus {
   background-color: #ffffff;
   border-color: #66b2ff;
-  box-shadow: 0 0 5px rgba(102,178,255,0.8);
+  box-shadow: 0 0 5px rgba(102, 178, 255, 0.8);
 }
+
 
 
 
