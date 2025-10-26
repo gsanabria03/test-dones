@@ -65,6 +65,7 @@ label {
   display: inline-block;
   background: #3399ff;
   color: white;
+  width: 50%;
   padding: 8px 15px;
   border-radius: 20px;
   cursor: pointer;
@@ -158,6 +159,7 @@ button:hover {
   border-color: #66b2ff;
   box-shadow: 0 0 5px rgba(102, 178, 255, 0.8);
 }
+
 
 
 
