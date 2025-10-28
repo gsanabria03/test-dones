@@ -71,9 +71,7 @@ label {
   transition: all 0.3s ease;
 }
 
-label:hover {
-  background: #66b2ff;
-}
+
 
 input[type="radio"] {
   margin-right: 5px;
@@ -131,6 +129,12 @@ button:hover {
   color: #cce0ff;
   margin-bottom: 4px; /* 🔹 Espacio entre etiqueta e input */
   width: 50%;
+  margin: 0%;
+  
+}
+
+#info-form label:hover {
+  background: #66b2ff;
 }
 
 #info-form input {
@@ -166,6 +170,10 @@ button:hover {
 }
 
 
+#test-form label {
+margin: 5px, 10px;
+width: 30%;
+}
 
 
 
