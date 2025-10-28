@@ -56,7 +56,7 @@ function enviarResultados(nombre, correo, telefono, resultados) {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      message: mensaje 
+      Mensaje: mensaje 
     })
   })
   .then(response => response.ok ? alert("✅ Resultado enviado con éxito!") : alert("❌ Error al enviar el correo"))
@@ -86,5 +86,6 @@ enviarResultados(nombre, correo, telefono, resultados);
 }
 
 iniciar();
+
 
 
