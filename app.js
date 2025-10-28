@@ -56,6 +56,9 @@ function enviarResultados(nombre, correo, telefono, resultados) {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
+      _subject: `🕊️ Resultado del Test de Dones - ${nombre}`,
+      _cc:`${correo} `,
+      _template: "box",
       Mensaje: mensaje 
     })
   })
@@ -86,6 +89,7 @@ enviarResultados(nombre, correo, telefono, resultados);
 }
 
 iniciar();
+
 
 
 
