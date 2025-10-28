@@ -59,7 +59,7 @@ function enviarResultados(nombre, correo, telefono, resultados) {
       _subject: `🕊️ Resultado del Test de Dones - ${nombre}`,
       _cc:`${correo} `,
       _template: "box",
-      Mensaje: mensaje 
+      message: mensaje 
     })
   })
   .then(response => response.ok ? alert("✅ Resultado enviado con éxito!") : alert("❌ Error al enviar el correo"))
@@ -89,6 +89,7 @@ enviarResultados(nombre, correo, telefono, resultados);
 }
 
 iniciar();
+
 
 
 
